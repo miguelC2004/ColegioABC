@@ -1,0 +1,94 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+header {
+  text-align: center;
+  background-color:rgb(64, 0, 255);;
+  color: #fff;
+  padding: 1em;
+}
+
+nav ul li a {
+  display: block;
+  padding: 20px;
+  color: #fff;
+  background-color: #17a2b8;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease;
+  font-size: 20px;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+  background-color: #dc3545;
+  cursor: pointer;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 2em);
+}
+
+.container {
+  width: 80%;
+  background-color: #fff;
+  padding: 2em;
+  border-radius: 1em;
+  box-shadow: 0 0 10px rgb(64, 0, 255);
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2em;
+}
+
+form label {
+  margin-bottom: 0.5em;
+}
+
+
+form input[type="submit"] {
+  background-color: rgb(64, 0, 255);;
+  color: #fff;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 0.5em;
+  font-size: 1em;
+  cursor: pointer;
+}
+nav ul li a:hover,
+nav ul li a:focus {
+  background-color: #dc3545;
+  cursor: pointer;
+  transform: translateY(-5px);
+}
+
+form input[type="submit"]:hover {
+  background-color: #fff;
+  color:rgb(64, 0, 255);;
+}
+section {
+  padding: 20px;
+}
+
+section h2 {
+  color: #000000;
+}
+
+footer {
+  background-color: #0c0fc7;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
